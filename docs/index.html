@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Dynasty Cheatcode Alpha</title>
-  </head>
-  <body>
-    <h1>Dynasty Cheatcode Alpha</h1>
-    <p>Wenn du das liest, funktioniert GitHub Pages.</p>
-  </body>
+<html lang="de">
+
+<style>
+  body {
+    background: #1E1A17;
+    color: #E5E7EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dynasty Tool (ALPHA)</title>
+</head>
+
+<body>
+
+  <h1>Dynasty Tool (ALPHA)</h1>
+
+<input
+  id="username"
+  placeholder="Sleeper Username"
+  style="margin-right:10px"
+/>
+
+  <input id="leagueId" placeholder="League-ID eingeben" />
+  <button id="loadLeague">League laden</button>
+
+  <div id="output"></div>
+ 
+<div id="legend" style="margin-top:20px; font-size:14px;">
+  <strong>Legende:</strong>
+  <ul style="list-style:none; padding-left:0; margin-top:8px;">
+    <li>
+      <span style="display:inline-block; width:12px; height:12px; background:#8B0000; margin-right:8px;"></span>
+      Drop/Trade
+    </li>
+    <li>
+      <span style="display:inline-block; width:12px; height:12px; background:#F4C430; margin-right:8px;"></span>
+      Evaluate the season
+    </li>
+    <li>
+      <span style="display:inline-block; width:12px; height:12px; background:#7FFF00; margin-right:8px;"></span>
+      Reliable
+    </li>
+    <li>
+      <span style="display:inline-block; width:12px; height:12px; background:#87CEEB; margin-right:8px;"></span>
+      Build team around him
+    </li>
+    <li>
+      <span style="display:inline-block; width:12px; height:12px; background:#C17DBA; margin-right:8px;"></span>
+      Keep until retirement
+    </li>
+  </ul>
+</div>
+
+ <script src="./colorMapper.js"></script>
+ <script src="./ratingEngine.js"></script>
+ <script src="./app.js"></script>
+
+</body>
 </html>
